@@ -1,0 +1,11 @@
+<c:if test="${notification != null}">
+    <div class="col-12">
+        <div class="alert alert-dismissible fade alert-fixed show alert-${notification.type} notification" role="alert">
+            <button style="margin-top: -3px" type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            ${notification.message}
+        </div>
+    </div>
+</c:if>
+

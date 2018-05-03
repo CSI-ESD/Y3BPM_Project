@@ -1,0 +1,14 @@
+<link type="text/css" rel="stylesheet" href="resources/css/lib/bootstrap.min.css">
+<link type="text/css" rel="stylesheet" href="resources/css/lib/bootstrap-toggle.min.css">
+<link type="text/css" rel="stylesheet" href="resources/css/lib/jquery.dataTables.min.css">
+<link type="text/css" rel="stylesheet" href="resources/css/spinner.css">
+<link type="text/css" rel="stylesheet" href="resources/css/main.css">
+<script src="resources/js/lib/jquery-3.2.1.min.js"></script>
+<script src="resources/js/lib/tether.min.js"></script>
+<script src="resources/js/lib/popper.min.js"></script>
+<script src="resources/js/lib/bootstrap.min.js"></script>
+<script src="resources/js/lib/jquery.dataTables.min.js"></script>
+<script src="resources/js/lib/notify.min.js"></script>
+<script src="resources/js/lib/bootstrap-toggle.min.js"></script>
+<script src="resources/js/main.js"></script>
+<script src="resources/js/scene.js"></script>        

@@ -1,0 +1,70 @@
+<div class="modal fade" id="registerModal" tabindex="-1" role="dialog" aria-labelledby="registerModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <form:form action="registerUser" modelAttribute="userDto">
+                <div class="modal-header">
+                    <h5 id="modal-title" id="registerModalLabel">Register a new user</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="form-group">
+                        <div class="form-group row">
+                            <label for="register-form-first-name" class="col-sm-3 col-form-label">First name</label>
+                            <div class="col">
+                                <form:input path="firstName" type="text" class="form-control" id="register-form-first-name" placeholder="First name"/>
+                                <form:errors path="firstName" cssClass="error"/>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="register-form-last-name" class="col-sm-3 col-form-label">Last name</label>
+                            <div class="col">
+                                <form:input path="lastName" type="text" class="form-control" id="register-form-last-name" placeholder="Last name"/>
+                                <form:errors path="lastName" cssClass="error"/>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="register-form-user-id" class="col-sm-3 col-form-label">Username</label>
+                            <div class="col">
+                                <form:input path="username" type="text" class="form-control" id="register-form-user-id" placeholder="Choose a username"/>
+                                <form:errors path="username" cssClass="error"/>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="register-form-password" class="col-sm-3 col-form-label">Password</label>
+                            <div class="col">
+                                <form:input path="password" type="password" class="form-control" id="register-form-password" placeholder="Choose a password"/>
+                                <form:errors path="password" cssClass="error"/>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="register-form-password-verify" class="col-sm-3 col-form-label">Password</label>
+                            <div class="col">
+                                <form:input path="passVerify" type="password" class="form-control" id="register-form-password-verify" placeholder="Repeat the password"/>
+                                <form:errors path="passVerify" cssClass="error"/>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="register-form-email" class="col-sm-3 col-form-label">Email</label>
+                            <div class="col">
+                                <form:input path="email" type="email" class="form-control" id="register-form-email" placeholder="Email address"/>
+                                <form:errors path="email" cssClass="error"/>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="register-form-email-verify" class="col-sm-3 col-form-label">Email (again)</label>
+                            <div class="col">
+                                <form:input path="emailVerify" type="email" class="form-control" id="register-form-email-verify" placeholder="Repeat the email address"/>
+                                <form:errors path="emailVerify" cssClass="error"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <input id="register-button" type="submit" value="Register" class="btn btn-primary"/>
+                </div>
+            </form:form>
+        </div>
+    </div>
+</div>
