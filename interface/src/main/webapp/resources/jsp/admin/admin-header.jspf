@@ -1,0 +1,15 @@
+<nav class="alex-main-header navbar sticky-top navbar-light">
+    <a class="navbar-brand" href="${pageContext.request.contextPath}">
+    </a>
+    <div class="form-inline">
+        <form:form class="form-inline" action="${pageContext.request.contextPath}/" method="POST">
+            <button id="config-button" type="submit" class="btn btn-light">Back</button>
+        </form:form>
+        <form:form class="form-inline" action="${pageContext.request.contextPath}/logout" method="POST">
+            <button id="config-button" type="submit" class="btn btn-light">Config</button>
+        </form:form>
+        <form:form class="form-inline" action="${pageContext.request.contextPath}/logout" method="POST">
+            <button id="logout-button" type="submit" class="btn btn-light">Logout</button>
+        </form:form>
+    </div>
+</nav>

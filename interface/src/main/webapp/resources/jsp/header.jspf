@@ -1,0 +1,17 @@
+<nav class="alex-main-header navbar sticky-top navbar-light">
+    <a class="navbar-brand" href="${pageContext.request.contextPath}">
+    </a>
+    <div class="form-inline">
+        <security:authorize access="hasRole('ADMINISTRATOR')">
+            <form:form class="form-inline" action="${pageContext.request.contextPath}/admin/admin-page" method="POST">
+                <button id="config-button" type="submit" class="btn btn-light">Admin</button>
+            </form:form>
+        </security:authorize>
+        <form:form class="form-inline" action="${pageContext.request.contextPath}/logout" method="POST">
+            <button id="config-button" type="submit" class="btn btn-light">Config</button>
+        </form:form>
+        <form:form class="form-inline" action="${pageContext.request.contextPath}/logout" method="POST">
+            <button id="logout-button" type="submit" class="btn btn-light">Logout</button>
+        </form:form>
+    </div>
+</nav>

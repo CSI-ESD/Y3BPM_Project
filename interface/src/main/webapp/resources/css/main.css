@@ -1,0 +1,174 @@
+/* 
+    Created on : Feb 25, 2018, 7:24:23 PM
+    Author     : Alexandru Constantin <aconstantin@wincom-consulting.com>
+*/
+
+#renderCanvas {
+    width   : 100%;
+    height  : 100%;
+    touch-action: none;
+}
+
+#login-card-title{
+    color: #E98074;
+}
+
+#modal-title{
+    color: #E98074;
+}
+
+
+#login-card {
+    background: #FFFFFF;
+}
+
+#login-button {
+    background: #FFFFFF;
+    color: #E98074;
+    border-color: #E98074;
+}
+
+#register-button {
+    background: #E98074;
+    border-color: #E98074;
+}
+
+#logout-button {
+    background: #E98074;
+    border-color: #E98074;
+    color: #FFFFFF;
+}
+
+#logout-button:hover {
+    background: #E85A4F;
+    border-color: #E85A4F;
+    color: #FFFFFF;
+}
+
+.alex-main-container{
+    height: 100%;
+    color: #330000;
+}
+
+
+.full-height{
+    height: 100%;
+}
+
+.alex-scene-view-panel{ position: fixed; top: 70px; right: 20px; z-index: 1; color: white; padding:5px; width:auto;}
+
+.alex-transparent{ background-color: rgba(0, 0, 0, 0.1);}
+
+.top5 { margin-top:5px; }
+.top7 { margin-top:7px; }
+.top10 { margin-top:10px; }
+.top15 { margin-top:15px; }
+.top17 { margin-top:17px; }
+.top30 { margin-top:30px; }
+
+.alex-label{ padding-top: 5px;}
+
+
+/*toggle*/
+.toggle.ios, .toggle-on.ios, .toggle-off.ios { border-radius: 20px; }
+.toggle.ios .toggle-handle { border-radius: 20px; }
+
+html, 
+body {
+    background-color: #EAE7DC;
+    overflow: hidden;
+    width   : 100%;
+    height  : 100%;
+    margin  : 0;
+    padding : 0;
+}
+
+#main-container{
+
+}
+
+.alex-transition-left{
+    margin-left: -1000px;
+}
+
+.alex-centre{
+    margin-top: 18em;
+}
+
+.alert{
+    margin-top: 5px;
+    box-shadow: 2px 2px 4px graytext;
+}
+
+.alert-fixed {
+    position:fixed;  
+    z-index:9999;
+    width: 98.5%;
+}
+
+.notification{
+}
+
+.header{
+
+    height: 3em;
+}
+
+.error{
+    color: red;
+}
+
+.top5 { margin-top:5px; }
+.top7 { margin-top:7px; }
+.top10 { margin-top:10px; }
+.top15 { margin-top:15px; }
+.top17 { margin-top:17px; }
+.top30 { margin-top:30px; }
+
+.alex-main-header{
+    background-color: #EAE7DC;
+    color: #8E8D8A;
+}
+
+#alex-start-button{
+    /*background: #FFFFFF;*/
+    color: #E98074;
+    border-color: #E98074;
+    background-color: rgba(0, 0, 0, 0.0);
+}
+
+#alex-start-button:hover{
+    background: #E98074;
+    color: #FFFFFF;
+    border-color: #E98074;
+}
+
+#alex-saved-sessions-button{
+    /*background: #FFFFFF;*/
+    color: #33A0CC;
+    border-color: #33A0CC;
+    background-color: rgba(0, 0, 0, 0.0);
+}
+
+#alex-saved-sessions-button:hover{
+    background: #33A0CC;
+    color: #FFFFFF;
+    border-color: #33A0CC;
+}
+
+#config-button{
+    background: #D8C3A5;
+    color: #FFFFFF;
+    border-color: #D8C3A5;
+    margin-right: 10px;
+}
+
+#config-button:hover{
+    background: #bf9d79;
+    color: #FFFFFF;
+    border-color: #bf9d79;
+    margin-right: 10px;
+}
+
+
+
